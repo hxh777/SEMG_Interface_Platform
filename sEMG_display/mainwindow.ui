@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>2000</width>
+    <height>1200</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="pushButton_openBLE">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>160</y>
+      <width>221</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>打开蓝牙</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_closeTCP">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>870</y>
+      <width>221</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>关闭TCP</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_senddateTCP">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>520</y>
+      <width>221</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>tcp发送</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_closeBLE">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>870</y>
+      <width>221</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>断开蓝牙</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_static">
+    <property name="geometry">
+     <rect>
+      <x>1250</x>
+      <y>80</y>
+      <width>221</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>静态存储</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_openTCP">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>160</y>
+      <width>221</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>打开TCP</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_upDateBLE">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>520</y>
+      <width>221</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>蓝牙发送</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_dynamic">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>80</y>
+      <width>221</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>动态存储</string>
+    </property>
+   </widget>
+   <widget class="QCustomPlot" name="customPlot" native="true">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>280</y>
+      <width>1081</width>
+      <height>781</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_clearall">
+    <property name="geometry">
+     <rect>
+      <x>1590</x>
+      <y>80</y>
+      <width>221</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>清楚数据</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QCustomPlot</class>
+   <extends>QWidget</extends>
+   <header>qcustomplot.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
