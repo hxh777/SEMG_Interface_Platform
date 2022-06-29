@@ -73,8 +73,8 @@ private slots:
      void on_pushButton_senddateTCP_clicked();
      void on_pushButton_closeTCP_clicked();
      void on_pushButton_openTCP_clicked();
-     void timerTimeOut_dyn();
-     void timerTimeOut_sta();
+     //void timerTimeOut_dyn();
+     //void timerTimeOut_sta();
      void on_pushButton_dynamic_clicked();
      void on_pushButton_static_clicked();
      void on_pushButton_clearall_clicked();
